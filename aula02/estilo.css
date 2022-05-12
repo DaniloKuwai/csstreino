@@ -1,0 +1,28 @@
+#principal{
+    display:flex;
+}
+
+.quadrado{
+    border:1px solid red;
+    border-radius: 10px;
+    background-color:lightgray;
+    width:300px;
+    height:300px;
+    margin:0px 5px;
+}
+
+.quadrado#q1{
+    background-image: linear-gradient(to top, blue, black);
+}
+
+.quadrado#q2{
+    background-image: linear-gradient(to right, red, yellow);
+}
+
+.quadrado#q2:hover{
+    background-image: linear-gradient(to bottom, yellow, green);
+}
+
+.quadrado#q3{
+    background-image: linear-gradient(to left, green, orange);
+}
