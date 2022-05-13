@@ -1,0 +1,11 @@
+body{
+    background-image:url('https://gustavoguanabara.github.io/html-css/imagens/mascote.png');
+    background-size:100px 100px;/*Essa propriedade replica a imagem no tamanho de 100px de largura e 100px de altura */
+    background-repeat:repeat-x;
+    /*Propriedades do background-repeat
+       1º -> por padrão ele já vem no repeat, ele repete a imagem até o espaço da tela
+       2º -> no-repeat ele não repete mais e fica uma imagem só do tamanho que definir
+       3º -> repeat-x ele repete só na horizontal(no eixo x)
+       4º -> repeat-y ele repete na vertical(no eixo y)
+    */
+}

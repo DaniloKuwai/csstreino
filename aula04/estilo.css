@@ -1,0 +1,37 @@
+body{
+    background-image:url('https://gustavoguanabara.github.io/html-css/imagens/mascote.png');
+    background-size:100px 100px;/*Essa propriedade replica a imagem no tamanho de 100px de largura e 100px de altura */
+    background-repeat:no-repeat;
+    background-position:center center;
+    height:100vh;
+    /*Propriedades do background-repeat
+       1º -> por padrão ele já vem no repeat, ele repete a imagem até o espaço da tela
+       2º -> no-repeat ele não repete mais e fica uma imagem só do tamanho que definir
+       3º -> repeat-x ele repete só na horizontal(no eixo x)
+       4º -> repeat-y ele repete na vertical(no eixo y)
+    */
+}
+
+div.bloco{
+    height:200px;
+    border:1px solid black;
+    margin:5px;
+    border-radius:20px;
+    background-image:url('https://gustavoguanabara.github.io/html-css/imagens/mascote.png');
+}
+
+div#q1{
+    background-position: left top;/*parte da esquerda pelo topo */
+}
+
+div#q2{
+    background-position: left center;/*parte da esquerda e mais pega pelo meio da imagem */
+}
+
+div#q3{
+    background-position: right bottom;/*parte da direita embaixo(posiciona a imagem na direita embaixo) */
+}
+
+div#q4{
+    background-position: center center;/*pego o meio meio */
+}
