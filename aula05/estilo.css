@@ -1,0 +1,9 @@
+body{
+    background-image: url('https://gustavoguanabara.github.io/html-css/imagens/mascote.png');
+    background-size:cover;/*Essa propriedade faz a imagem cobrir toda a tela*/
+    /*Criar vinculo que é o attachment
+    1º scrool -> por padrão rola a imagem junto com a descida do scrool
+    2º fixed -> a imagem fica fixa por mais que tente rolar
+    */
+    background-attachment: fixed;
+}
