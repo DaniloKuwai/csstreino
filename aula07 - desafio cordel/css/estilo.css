@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&family=Sriracha&display=swap');
+
+/*Método para criar variáveis*/
+:root{
+    --fonte1:Verdana,Geneva,Tahoma,sans-serif;
+    --fonte2:'Passion One', cursive;
+    --fonte3:'Sriracha', cursive;
+
+}
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+
+html,body{
+    min-height: 100vh;
+    background-color: darkgray;
+    font-family: var(--fonte1);
+}
+
+
+header{
+    background-color: black;
+    color:white;
+    text-align: center;
+}
+
+header > h1{
+    padding-top:50px;
+    font-variant:small-caps;/*Deixa as letras maiúsculas só as iniciais*/
+    font-size:10vw;/*Estou definindo que o tamanho da fonte vai ter 10% da largura da minha viewport(a tela no caso), para altura é vh mesmo conceito*/
+    font-family: var(--fonte2);
+}
+
+header > p{
+    padding-bottom: 50px;
+}
+
+a{
+    color:white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+section{
+    padding-top:10vh;
+    padding-bottom:10vh;
+    padding-left: 30px;
+    line-height: 5vw;/*da o espaçamento entre as frases da section*/
+    font-family: var(--fonte3);
+}
+
+section.normal{
+    background-color: white;
+    color:black;
+}
+
+section.imagem{
+    background-color:black;
+    color:white;
+    box-shadow: inset 6px 6px 13px 0px black;
+    background-attachment: fixed;/*Esse é o responsável pelo parallax, ele deixa as imagens como fundo fixo*/
+}
+
+section.imagem > p{
+    background-color: black;
+    padding:5px;
+    display:inline-block;/*O display inline-block, faz com que a tela se adapte ao tamanho do conteúdo*/
+    color:white;
+    text-shadow: 1px 1px 0px black;/*Da uma sombreada no texto*/
+}
+
+section#img01{
+    background-image: url('../imagens/background001.jpg');
+    background-position: right center;
+    background-size:cover;
+
+}
+
+section#img02{
+    background-image: url('../imagens/background002.jpg');
+    background-position: right center;
+    background-size:cover;
+}
+
+
+footer{
+    background-color: black;
+    text-align: center;
+    color:white;
+    padding: 10px;
+}
+
+
