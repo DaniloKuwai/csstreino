@@ -1,0 +1,25 @@
+#container{
+    background-image: url(../img.jpg);
+    background-size: 100% 100%;
+    position:relative;
+    height:500px;
+    background-color: purple;
+    padding:10px;
+}
+
+#conteudo{
+    /*Com essa propriedade absolute podemos agora usar propriedades de posicionamento, por padrão vem como relative*/
+    position:absolute;
+    height:200px;
+    width:400px;
+    background-color: yellow;
+    /*Com essas 2 propriedades left e top ele vai ter 100px da esquerda do container pai até a esquerda do elemento conteudo
+    O top é a mesma situação ele possui do topo do container até o topo do elemento
+    */
+    /*Podemos também utilizar em % também*/
+    left:50%;
+    top:50%;
+
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
