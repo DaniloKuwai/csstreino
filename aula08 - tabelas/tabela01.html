@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body{
+            font-family:Arial;
+        }
+
+        table{
+            width:400px;
+            border-collapse: collapse;/*Por padrão vem separate que deixa as bordas separadas e com o collapse ele junta as bordas*/
+            border:2px solid green;
+        }
+
+        td{
+            border: 1px solid black;
+            padding:8px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Minha Primeira Tabela</h1>
+    <!--
+        Hierarquia de tabelas(simples)
+        Table = tabela <table>
+            Table row = linha da tabela <tr>
+                table header = cabeçalho de tabela
+                    table data = dado de tabela <td>
+    -->
+    <table><!--table row-->
+        <tr>
+            <td>A1</td><!--table data-->
+            <td>B1</td>
+            <td>C1</td>
+        </tr>
+
+        <tr>
+            <td>A2</td>
+            <td>B2</td>
+            <td>C2</td>
+        </tr>
+
+        <tr>
+            <td>A3</td>
+            <td>B3</td>
+            <td>C3</td>
+        </tr>
+        <tr>
+            <td>A4</td>
+            <td>B4</td>
+            <td>C4</td>
+        </tr>
+        <tr>
+            <td>A5</td>
+            <td>B5</td>
+        </tr>
+
+    </table>
+</body>
+</html>
